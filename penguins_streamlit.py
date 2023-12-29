@@ -47,6 +47,9 @@ prediction_species = unique_penguin_mapping[new_prediction][0]
 
 st.write(f"We predict your penguin os of the {prediction_species} species")
 
+st.write(""" We used a machine leraning (Random Forest) model to predict the species, the features used in this prediction are ranked by relative importance below.""")
+st.image("feature_importance.png")
+
 
 #st.write(rfc)
 #st.write(unique_penguin_mapping)
